@@ -1,0 +1,19 @@
+** open terminal
+
+1) install the virtual library
+python3 -m pip install virtualenv
+
+2) lets use the library that we just installed
+python3 -m venv venv
+
+3) lets launch the virtual environment (**this is something that needs to be executed everytime that I want to work with this project)
+[source venv/bin/activate]
+
+4) Install flask
+python3 -m pip install flask
+
+**to kill the terminal, you must use the trash can in the terminal,not just close it.
+
+pip freeze - shows whats installed
+
+to run: python3 server.py  (server.py is the file name)
